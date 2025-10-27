@@ -60,15 +60,16 @@ Deletes the specified webhook.
 stoat-wh send <url> | <id> <token> [options]
 ```
 
-| Option                | Description                                    |                                                     |
-| --------------------- | ---------------------------------------------- | --------------------------------------------------- |
-| `-c, --content TEXT`  | Message content (overridden by stdin if piped) |                                                     |
-| `--username NAME`     | Masquerade display name                        |                                                     |
-| `--avatar URL`        | Masquerade avatar URL                          |                                                     |
-| `--flags INT`         | Message flag bitfield                          |                                                     |
-| `--reply ID [ID ...]` | Message IDs to reply to                        |                                                     |
-| `--embed PATH         | JSON [...]`                                    | Embed JSON string or file path (only one supported) |
-| `--interactions PATH  | JSON`                                          | Interactions JSON string or file path               |
+| Option                      | Description                                    |
+| --------------------------- | -----------------------------------------------|
+| `-c, --content TEXT`        | Message content (overridden by stdin if piped) |
+| `--username NAME`           | Masquerade display name                        |
+| `--avatar URL`              | Masquerade avatar URL                          |
+| `--flags INT`               | Message flag bitfield                          |
+| `--reply ID [ID ...]`       | Message IDs to reply to                        |
+| `--embed PATH\|JSON [...]`  | Embed JSON string or file path                 |
+| `--interactions PATH\|JSON` | Interactions JSON string or file path          |
+
 
 ## Environment
 
