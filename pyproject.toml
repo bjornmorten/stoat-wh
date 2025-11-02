@@ -1,0 +1,17 @@
+[project]
+name = "stoat-wh"
+version = "1.0.0"
+description = "Manage and send messages via Stoat webhooks"
+authors = [{ name = "bjornmorten", email = "bjornmdev@proton.me" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["requests"]
+
+[project.urls]
+Homepage = "https://github.com/bjornmorten/stoat-wh"
+Repository = "https://github.com/bjornmorten/stoat-wh"
+Issues = "https://github.com/bjornmorten/stoat-wh/issues"
+
+[project.scripts]
+stoat-wh = "stoat_wh:main"
